@@ -1,7 +1,7 @@
 Summary:   GTK user interface to manage sim card contacts
 Name:      monosim-gtk
 Version:   2.0.0.0
-Release:   %mkrel 1
+Release:   %mkrel 2
 License:   GPLv2
 #ExcludeArch: ppc64
 Group:     Office
@@ -53,7 +53,7 @@ rm -rf %{buildroot}
 %doc copying.gpl monosim-gtk/readme
 %{_bindir}/%{name}
 %_prefix/lib/%{name}/
-%{_datadir}/%{name}/Languages/
+%{_datadir}/%{name}/
 %{_datadir}/pixmaps/%{name}.png
 %{_datadir}/applications/%{name}.desktop
 
